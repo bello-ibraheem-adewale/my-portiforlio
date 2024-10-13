@@ -1,9 +1,63 @@
 import React from 'react'
+import image9 from '../assets/bb.jpg'
 
 const About = () => {
   return (
-    <div>
-      <h1>this is my about component</h1>
+    <div className='bg-black w-[100vw] h-[100vh] text-white'>
+      <nav className='flex justify-between p-5'>
+  <h1>Dr.Bee</h1>
+  <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
+    <a href="">Home</a>
+    <a href="">About me</a>
+    <a href="">Services</a>
+    <a href="">My works</a>
+    <a href="">Testimonials</a>
+    
+  </div>
+  <h1 className='flex tablet:hidden laptop:hidden'>&#9747</h1>
+  <a className='bg-gradient-to-r  from-pink-500 to-fuchsia-500   w-32 h-10 rounded-full pt-2 justify-center text-center hidden tablet:flex laptop:flex' href="">Contact Us</a>
+</nav>
+      <h1 className='text-center font-serif text-gradient-to-r from-violet-500 to-fuchsia-500'>About me</h1>
+      <div className='flex flex-row justify-center space-x-10'>
+        <img className='w-48 h-60 pt-20 pl-4' src={image9} alt="" />
+        <div className='flex flex-col'>
+          <div className='pt-10'>
+            <p className='font-mono text-[12px] tablet:text-[15px] laptop:text-[15px]'>I am an experienced front-end web developer with over a decade of professional expertise in the field.Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+            <p className='font-mono text-[12px] tablet:text-[15px] laptop:text-[15px]'>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to to each project.</p>
+        
+   
+          </div> 
+          <div className='flex flex-col'>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>HTML</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>CSS</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>TAILWINDCSS</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>BOOTSTARP</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>REACT JS</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-0.5 rounded bg-gradient-to-r from-violet-500 to-fuchsia-500' /></div>
+          <div className='flex flex-col tablet:flex-row items-center m-2 gap-4'><h2>NEST JS</h2><hr className='w-60 tablet:w-80 laptop:w-80 h-1 rounded bg-gradient-to-r from-violet-500 to-fuchsia-500' /></div>
+          </div>
+        </div>
+      </div>
+
+      <main className='flex justify-evenly p-10 bg-black h-auto w-screen'>
+        <div>
+          <h1>10+</h1>
+          <p className='text-[10px] tablet:text-xl laptop:text-xl'>YEARS OF EXPERIENCE</p>
+        </div>
+        {/* <hr className='bg-orange-500 w-5 h-90'/> */}
+        <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-0.5 mr-5 h-16'></div>
+
+        <div>
+          <h1>90+</h1>
+          <p className='text-[10px] tablet:text-xl laptop:text-xl'>PROJECT COMPLETED</p>
+        </div>
+        <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-0.5 mr-5 h-16'></div>
+
+        <div>
+          <h1>15+</h1>
+          <p className='text-[10px] tablet:text-xl laptop:text-xl'>HAPPY CLIENTS</p>
+        </div>
+      </main>
+      <h1></h1>
     </div>
   )
 }
