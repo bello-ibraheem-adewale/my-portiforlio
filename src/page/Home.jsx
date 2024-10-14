@@ -32,7 +32,7 @@ const Home = () => {
   <h1>Dr.Bee</h1>
   <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
     <a href="">Home</a>
-    <a href="">About me</a>
+    <a href="./about" onClick={()=>{}}>About me</a>
     <a href="">Services</a>
     <a href="">My works</a>
     <a href="">Testimonials</a>
@@ -47,7 +47,8 @@ const Home = () => {
 
 </div>
 <div className='w-screen flex flex-col justify-center text-center'>
-  <p className='text-[10px] tablet:text-xs laptop:text-xl'>I am a frontend developer with over 3yrs of experience of working with different kinds <br /> <span className='pl-48 mt-3'>of companies both remotely and onsite</span></p>
+  <p className='text-[10px] tablet:text-xs laptop:text-xl'>I am a frontend developer with over 3yrs of experience of working with different kinds </p>
+    <p> <span className='pl-28 mt-3'>of companies both remotely and onsite</span></p>
 </div>
 
 <div className='w-screen flex flex-col tablet:flex-row laptop:flex-row align-middle items-center justify-center gap-4 p-10'>

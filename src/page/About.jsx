@@ -4,19 +4,7 @@ import image9 from '../assets/bb.jpg'
 const About = () => {
   return (
     <div className='bg-black w-[100vw] h-[100vh] text-white'>
-      <nav className='flex justify-between p-5'>
-  <h1>Dr.Bee</h1>
-  <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
-    <a href="">Home</a>
-    <a href="">About me</a>
-    <a href="">Services</a>
-    <a href="">My works</a>
-    <a href="">Testimonials</a>
-    
-  </div>
-  <h1 className='flex tablet:hidden laptop:hidden'>&#9747</h1>
-  <a className='bg-gradient-to-r  from-pink-500 to-fuchsia-500   w-32 h-10 rounded-full pt-2 justify-center text-center hidden tablet:flex laptop:flex' href="">Contact Us</a>
-</nav>
+     
       <h1 className='text-center font-serif text-gradient-to-r from-violet-500 to-fuchsia-500'>About me</h1>
       <div className='flex flex-row justify-center space-x-10'>
         <img className='w-48 h-60 pt-20 pl-4' src={image9} alt="" />
