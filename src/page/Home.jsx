@@ -42,13 +42,14 @@ const Home = () => {
   <a className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transform scale-1 w-32 h-10 rounded-full pt-2 justify-center text-center hidden tablet:flex laptop:flex' href="">Contact Us</a>
 </nav>
 <div className='flex flex-col tablet:flex-row laptop:flex-row p-5 justify-center gap-10 align-middle items-center'>
-<h1><span className='bg-gradient-to-r from-violet-500 to-fuchsia-500'>I'm Bello Ibraheem Adewale,</span> frontend <br/> developer with alots of real life projects</h1>
+<h1 className='bg-gradient-to-r from-violet-500 to-fuchsia-500'>I'm Bello Ibraheem Adewale, frontend  </h1>
+<h1>developer with alots of real life projects</h1>
 <img className='w-56 h-72 bg-cover rounded-tr-full rounded-tl-full' src={image9} alt="" />
 
 </div>
 <div className='w-screen flex flex-col justify-center text-center'>
   <p className='text-[10px] tablet:text-xs laptop:text-xl'>I am a frontend developer with over 3yrs of experience of working with different kinds </p>
-    <p> <span className='pl-28 mt-3'>of companies both remotely and onsite</span></p>
+    <p className='text-[10px] tablet:text-xs laptop:text-xl'>of companies both remotely and onsite</p>
 </div>
 
 <div className='w-screen flex flex-col tablet:flex-row laptop:flex-row align-middle items-center justify-center gap-4 p-10'>
