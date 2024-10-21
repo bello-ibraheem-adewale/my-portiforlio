@@ -3,7 +3,7 @@ import image9 from '../assets/bb.jpg'
 
 const About = () => {
   return (
-    <div className='bg-black w-[100vw] h-[100vh] text-white'>
+    <div className='bg-black w-[100vw] text-white'>
      
       <h1 className='text-center font-serif text-gradient-to-r from-violet-500 to-fuchsia-500'>About me</h1>
       <div className='flex flex-row justify-center space-x-10'>
