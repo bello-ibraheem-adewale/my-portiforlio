@@ -11,7 +11,7 @@ const Home = () => {
   };
 
   return (
-    <div className='w-full min-h-screen bg-black text-white font-mono'>
+    <div className='w-[100vw] min-h-screen bg-black text-white font-mono'>
       <nav className='flex justify-between items-center py-4 px-6 tablet:px-10 laptop:px-10'>
         <h1 className='text-2xl'>Dr.Bee</h1>
         <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         <div>
-        <a className='bg-gradient-to-r from-pink-500 to-fuchsia-500 hidden tablet:flex laptop:flex transform scale-1 w-32 h-10 rounded-full pt-2 justify-center text-center' href="#contact">Contact Us</a>
+        <a className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transition-colors bg-blend-lighten hover:transform scale-75 hidden tablet:flex laptop:flex w-36 h-12  rounded-full pt-2 justify-center text-xl text-center' href="#contact">Contact Us</a>
 
         </div>
 
