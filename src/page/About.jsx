@@ -19,8 +19,8 @@ const About = () => {
         
    
           </div> 
-          <div className='flex flex-col'>
-          <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>HTML</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
+          <div className='flex flex-col mt-10'>
+          <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>HTML</h2><hr className='w-52  tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>CSS</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>TAILWINDCSS</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>BOOTSTARP</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
