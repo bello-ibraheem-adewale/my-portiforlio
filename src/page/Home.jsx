@@ -16,7 +16,7 @@ const Home = () => {
         <h1 className='text-2xl'>Dr.Bee</h1>
         <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
           <a onClick={() => setMenuOpen(false)} href="#home">Home</a>
-          <a onClick={() => setMenuOpen(false)} href="#about">About me</a>
+          <a onClick={() => setMenuOpen(false)} href="./about">About me</a>
           <a onClick={() => setMenuOpen(false)} href="#services">Services</a>
           <a onClick={() => setMenuOpen(false)} href="#work">My works</a>
           <a onClick={() => setMenuOpen(false)} href="#testimonials">Testimonials</a>
