@@ -50,7 +50,7 @@ const Service = () => {
     
     ]
   return (
-    <div className='bg-black font-serif'>
+    <div className='w-[100vw] min-h-screen bg-black font-serif'>
         <h1 className='text-lime-400 text-center'>MY SERVICES</h1>
         <marquee behavior="" direction="right"  className='text-lime-400 pt-5 text-2xl'>This are my specilizations, and am good at what i did. Hire me</marquee>
     <div className='grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-2 w-screen h-auto text-center justify-center  bg-black  text-white'>
