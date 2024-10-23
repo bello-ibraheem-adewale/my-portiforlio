@@ -11,9 +11,10 @@ const Home = () => {
   };
 
   return (
-    <div className='w-[100vw] min-h-screen bg-black text-white font-mono'>
-      <nav className='flex justify-between items-center py-4 px-6 tablet:px-10 laptop:px-10'>
-        <h1 className='text-2xl'>Dr.Bee</h1>
+    <div className='w-full min-h-screen bg-black text-white font-mono'>
+      <nav className='flex justify-between items-center py-4 px-6 tablet:px-10 laptop:px-12'>
+        <h1 className='text-2xl tablet:text-3xl laptop:text-4xl'>Dr.Bee</h1>
+        
         <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About me</Link>
@@ -23,7 +24,7 @@ const Home = () => {
         </div>
 
         <div>
-          <Link to="/contact" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transition-colors bg-blend-lighten hover:transform scale-75 hidden tablet:flex laptop:flex w-36 h-12 rounded-full pt-2 justify-center text-xl text-center'>
+          <Link to="/contact" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transition-transform hover:scale-105 hidden tablet:flex laptop:flex w-36 h-12 rounded-full justify-center items-center text-xl'>
             Contact Us
           </Link>
         </div>
@@ -37,32 +38,36 @@ const Home = () => {
         </div>
 
         {menuOpen && (
-          <div className='absolute top-16 right-0 w-48 text-center bg-slate-400 flex flex-col items-center py-4 tablet:hidden laptop:hidden'>
-            <Link to="/" onClick={() => setMenuOpen(false)} className='py-2 hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 w-48'>Home</Link>
-            <Link to="/about" onClick={() => setMenuOpen(false)} className='py-2 hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 w-48'>About me</Link>
-            <Link to="/service" onClick={() => setMenuOpen(false)} className='py-2 hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 w-48'>Service</Link>
-            <Link to="/work" onClick={() => setMenuOpen(false)} className='py-2 hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 w-48'>My works</Link>
-            <Link to="/testimonials" onClick={() => setMenuOpen(false)} className='py-2 hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 w-48'>Testimonials</Link>
+          <div className='absolute top-16 right-0 w-48 text-center bg-gray-700 rounded-lg flex flex-col items-center py-4 tablet:hidden laptop:hidden'>
+            <Link to="/" onClick={() => setMenuOpen(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Home</Link>
+            <Link to="/about" onClick={() => setMenuOpen(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>About me</Link>
+            <Link to="/service" onClick={() => setMenuOpen(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Service</Link>
+            <Link to="/work" onClick={() => setMenuOpen(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>My works</Link>
+            <Link to="/testimonials" onClick={() => setMenuOpen(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Testimonials</Link>
           </div>
         )}
       </nav>
 
-      <div className='flex flex-col tablet:flex-row laptop:flex-row p-5 justify-center items-center gap-10 min-h-[calc(100vh-64px)]'>
-        <h1 className='text-center tablet:text-left'>
-          <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500'>I'm Bello Ibraheem Adewale</span>, frontend developer with a lot of real-life projects
+      <div className='flex flex-col tablet:flex-row laptop:flex-row p-6 justify-center items-center gap-10 min-h-[calc(100vh-64px)]'>
+        <h1 className='text-center tablet:text-left text-lg tablet:text-2xl laptop:text-3xl'>
+          <span className='bg-gradient-to-r from-violet-500 to-fuchsia-500'>I'm Bello Ibraheem Adewale</span>, a frontend developer with extensive real-life projects.
         </h1>
         <img className='w-56 h-72 bg-cover rounded-tr-full rounded-tl-full' src={image9} alt="Profile" />
       </div>
 
-      <div className='w-screen flex flex-col justify-center text-center'>
-        <p className='text-[10px] tablet:text-xs laptop:text-xl'>
-          I am a frontend developer with over 3 years of experience working with different kinds of companies both remotely and onsite.
+      <div className='w-full flex flex-col justify-center text-center p-4'>
+        <p className='text-xs tablet:text-lg laptop:text-xl'>
+          I am a frontend developer with over 3 years of experience working with different kinds of companies, both remotely and onsite.
         </p>
       </div>
 
-      <div className='w-screen flex flex-col tablet:flex-row laptop:flex-row items-center justify-center gap-4 p-10'>
-        <Link to="/connect" className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-1 border-2 border-b-white'>Connect me</Link>
-        <Link to="/resume" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-1 border-2 border-b-white'>My resume</Link>
+      <div className='w-full flex flex-col tablet:flex-row laptop:flex-row items-center justify-center gap-6 p-10'>
+        <Link to="/connect" className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-2 transition-transform hover:scale-105'>
+          Connect with me
+        </Link>
+        <Link to="/resume" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-2 transition-transform hover:scale-105'>
+          My Resume
+        </Link>
       </div>
     </div>
   );
