@@ -56,7 +56,7 @@ const Service = () => {
     <div className='grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-2 w-screen h-auto text-center justify-center  bg-black  text-white'>
      
       {myServices.map((Service)=>(
-      <div key={Service.id} className='cursor-pointer mt-5 tablet:mt-0 laptop:mt-0 appearance-auto w-64	tablet:w-96 laptop:w-96 rounded-md h-52 space-y-2 m-20 font-mono border-2 border-white'>
+      <div key={Service.id} className='cursor-pointer mr-5 tablet:mr-0 laptop:mr-0 appearance-auto w-64	tablet:w-96 laptop:w-96 rounded-md h-52 space-y-2 m-20 font-mono border-2 border-white'>
         <h2>{Service.id}</h2>
         <h1>{Service.name}</h1>
         <h3>{Service.desception}</h3>
