@@ -6,69 +6,64 @@ const Service = () => {
     const myServices = [
         {
             id: '01',
-            name: 'Web design',
-            desception: 'Web development is the way of build, programming...',
+            name: 'Web Design',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-            
         },
         {
             id: '02',
-            name: 'Graph Design',
-            desception: 'Web development is the way of build, programming...',
+            name: 'Graphic Design',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-            
         },
         {
             id: '03',
-            name: 'Free flancer',
-            desception: 'Web development is the way of build, programming...',
+            name: 'Freelancer',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-            
         },
         {
             id: '04',
-            name: 'Responsive user interface',
-            desception: 'Web development is the way of build, programming...',
+            name: 'Responsive UI',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-
-            
         },
         {
             id: '05',
-            name: 'Front-end works',
-            desception: 'Web development is the way of build, programming...',
+            name: 'Front-end Work',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-            
         },
         {
             id: '06',
             name: 'Social Media',
-            desception: 'Web development is the way of build, programming...',
+            desception: 'Web development is the way of building, programming...',
             more: 'Read More ->'
-            
         },
-    
-    ]
-  return (
-    <div className='w-[100vw] min-h-screen bg-black font-serif'>
-        <h1 className='text-lime-400 text-center'>MY SERVICES</h1>
-        <marquee behavior="" direction="right"  className='text-lime-400 pt-5 text-2xl'>This are my specilizations, and am good at what i did. Hire me</marquee>
-    <div className='grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-2 w-screen h-auto text-center justify-center  bg-black  text-white'>
-     
-      {myServices.map((Service)=>(
-      <div key={Service.id} className='cursor-pointer mr-5 tablet:mr-0 laptop:mr-0 appearance-auto w-64	tablet:w-96 laptop:w-96 rounded-md h-52 space-y-2 m-20 font-mono border-2 border-white'>
-        <h2>{Service.id}</h2>
-        <h1>{Service.name}</h1>
-        <h3>{Service.desception}</h3>
-        <p>{Service.more}</p>
-      </div>
+    ];
 
-))}
-     
-      
-    </div>
-    </div>
-  )
+    return (
+        <div className='w-full min-h-screen bg-black font-serif p-4'>
+            <h1 className='text-lime-400 text-center text-3xl'>MY SERVICES</h1>
+            <marquee behavior="" direction="right" className='text-lime-400 pt-5 text-lg md:text-2xl'>
+                These are my specializations, and I'm good at what I do. Hire me.
+            </marquee>
+            
+            <div className='grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-8 p-6 text-center justify-center text-white'>
+                {myServices.map((service) => (
+                    <div 
+                        key={service.id} 
+                        className='cursor-pointer p-4 rounded-md h-52 space-y-2 w-64 tablet:w-80 laptop:w-96 border-2 border-lime-400 transform hover:scale-105 transition-transform m-auto'
+                    >
+                        <h2 className='text-lg tablet:text-xl laptop:text-2xl'>{service.id}</h2>
+                        <h1 className='text-lg tablet:text-xl laptop:text-2xl'>{service.name}</h1>
+                        <h3 className='text-sm tablet:text-base laptop:text-lg'>{service.desception}</h3>
+                        <p className='text-sm text-lime-300'>{service.more}</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 }
 
-export default Service
+export default Service;
