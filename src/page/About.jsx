@@ -11,7 +11,7 @@ const About = () => {
       <h1 className='text-center font-serif text-gradient-to-r from-violet-500 to-fuchsia-500'>About me</h1>
       <FaAffiliatetheme />
       <div className='flex flex-row justify-center space-x-10'>
-        <img className='w-48 h-60 pt-20 pl-4' src={image9} alt="" />
+        <img className='w-48 h-60 pt-20 pl-2' src={image9} alt="" />
         <div className='flex flex-col'>
           <div className='pt-12'>
             <p className='font-mono text-[12px] tablet:text-[15px] laptop:text-[15px]'>I am an experienced front-end web developer with over a decade of professional expertise in the field.Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
@@ -19,7 +19,7 @@ const About = () => {
         
    
           </div> 
-          <div className='flex flex-col mt-10'>
+          <div className='flex flex-col mt-12'>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>HTML</h2><hr className='w-52  tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>CSS</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
           <div className='flex flex-col hover:transition 0.3s hover:transform hover:scale-105 tablet:flex-row items-center m-2 gap-4'><h2>TAILWINDCSS</h2><hr className='w-52 tablet:w-80 laptop:w-80 h-0.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded' /></div>
