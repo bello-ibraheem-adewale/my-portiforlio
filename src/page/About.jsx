@@ -1,5 +1,6 @@
 import React from 'react'
 import image9 from '../assets/bb.jpg'
+
 // import { FaAffiliatetheme } from "react-icons/fa6";
 
 const About = () => {
