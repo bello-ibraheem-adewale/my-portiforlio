@@ -45,7 +45,7 @@ const Service = () => {
     return (
         <div className='w-full min-h-screen bg-black font-serif p-4'>
             <h1 className='text-lime-400 text-center text-3xl'>MY SERVICES</h1>
-            <marquee behavior="" direction="right" className='text-lime-400 pt-5 text-lg md:text-2xl'>
+            <marquee behavior="" direction="left" className='text-lime-400 pt-5 text-lg md:text-2xl'>
                 These are my specializations, and I'm good at what I do. Hire me.
             </marquee>
             
