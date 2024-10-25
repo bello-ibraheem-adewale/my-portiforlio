@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to="/about" onClick={() => toggleMenu(false)}>About me</Link>
         <Link to="/service" onClick={() => toggleMenu(false)}>Service</Link>
         <Link to="/work" onClick={() => toggleMenu(false)}>My works</Link>
-        <Link to="/testimonials" onClick={() => toggleMenu(false)}>Testimonials</Link>
+        {/* <Link to="/testimonials" onClick={() => toggleMenu(false)}>Testimonials</Link> */}
       </div>
 
       <Link to="/contact" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transition-transform hover:scale-105 hidden tablet:flex laptop:flex w-36 h-12 rounded-full justify-center items-center text-xl'>

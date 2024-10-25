@@ -13,7 +13,7 @@ const About = () => {
         <div className='flex flex-col mt-4 lg:mt-0 lg:pl-10'>
           <div className='px-4 lg:px-0'>
             <p className='font-mono text-xs md:text-sm lg:text-base'>
-              I am an experienced front-end web developer with over a decade of professional expertise in the field.
+              I am an experienced front-end web developer with over 3 years of professional expertise in the field.
               Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
             </p>
             <p className='font-mono text-xs md:text-sm lg:text-base mt-4'>
@@ -40,13 +40,13 @@ const About = () => {
         <div className='hidden md:block bg-gradient-to-r from-violet-500 to-fuchsia-500 w-0.5 h-16'></div>
 
         <div className='text-center'>
-          <h1 className='bg-gradient-to-r from-pink-500 to-fuchsia-500 p-2 text-xl md:text-2xl'>90+</h1>
+          <h1 className='bg-gradient-to-r from-pink-500 to-fuchsia-500 p-2 text-xl md:text-2xl'>15+</h1>
           <p className='text-sm md:text-xl'>PROJECTS COMPLETED</p>
         </div>
         <div className='hidden md:block bg-gradient-to-r from-violet-500 to-fuchsia-500 w-0.5 h-16'></div>
 
         <div className='text-center'>
-          <h1 className='bg-gradient-to-r from-pink-500 to-fuchsia-500 p-2 text-xl md:text-2xl'>15+</h1>
+          <h1 className='bg-gradient-to-r from-pink-500 to-fuchsia-500 p-2 text-xl md:text-2xl'>5+</h1>
           <p className='text-sm md:text-xl'>HAPPY CLIENTS</p>
         </div>
       </main>
