@@ -414,9 +414,9 @@ const Home = () => {
 
         {/* Action Links */}
         <div className={`w-full flex flex-col tablet:flex-row laptop:flex-row items-center justify-center gap-6 p-10 ${isVisible ? 'fade-in' : 'opacity-0'}`}>
-          <Link to="/connect" className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-2 transition-transform hover:scale-105'>
+          {/* <Link to="/connect" className='bg-gradient-to-r from-violet-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-2 transition-transform hover:scale-105'>
             Connect with me
-          </Link>
+          </Link> */}
           <Link to="/resume" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 w-60 h-10 rounded-full text-center pt-2 transition-transform hover:scale-105'>
             My Resume
           </Link>

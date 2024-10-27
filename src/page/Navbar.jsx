@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className='hidden tablet:flex laptop:flex justify-evenly gap-8'>
         <Link to="/" onClick={() => toggleMenu(false)}>Home</Link>
         <Link to="/about" onClick={() => toggleMenu(false)}>About me</Link>
-        <Link to="/service" onClick={() => toggleMenu(false)}>Service</Link>
-        <Link to="/work" onClick={() => toggleMenu(false)}>My works</Link>
+        <Link to="/services" onClick={() => toggleMenu(false)}>Service</Link>
+        <Link to="/projects" onClick={() => toggleMenu(false)}>My Projects</Link>
         {/* <Link to="/testimonials" onClick={() => toggleMenu(false)}>Testimonials</Link> */}
       </div>
 
