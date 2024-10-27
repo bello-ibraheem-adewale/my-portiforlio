@@ -36,8 +36,8 @@ const Navbar = () => {
         <div className='absolute top-16 right-0 w-48 text-center bg-gray-700 rounded-lg flex flex-col items-center py-4 tablet:hidden laptop:hidden'>
           <Link to="/" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Home</Link>
           <Link to="/about" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>About me</Link>
-          <Link to="/service" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Service</Link>
-          <Link to="/work" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>My works</Link>
+          <Link to="/services" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>Services</Link>
+          <Link to="/projects" onClick={() => toggleMenu(false)} className='py-2 w-full hover:bg-gradient-to-r from-violet-500 to-fuchsia-500'>My Projects</Link>
           <Link to="/contact" className='bg-gradient-to-r from-pink-500 to-fuchsia-500 transition-transform hover:scale-105 p-2 tablet:p-0 laptop:p-0 tablet:flex laptop:flex w-36 h-12 rounded-full justify-center items-center text-xl'>
         Contact Me
       </Link>
