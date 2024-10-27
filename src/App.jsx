@@ -37,6 +37,7 @@ import Home from './page/Home';
 import About from './page/About';
 import Service from './page/Service';
 import { NavbarProvider } from './page/NavbarContext';
+import ContactMe from './page/ContactMe';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/contact" element={<ContactMe />} />
           {/* Add other routes as needed */}
         </Routes>
       </NavbarProvider>
