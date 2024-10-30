@@ -15,9 +15,7 @@ const ConnectWithMe = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send to an API)
     console.log(formData);
-    // Reset form
     setFormData({ name: '', email: '', message: '' });
   };
 

@@ -1,13 +1,11 @@
 import React from 'react'
 import image9 from '../assets/bb.jpg'
 
-// import { FaAffiliatetheme } from "react-icons/fa6";
 
 const About = () => {
   return (
     <div className='bg-black w-full min-h-screen text-white p-4'>
       <h1 className='text-center font-serif text-3xl md:text-4xl bg-gradient-to-r from-violet-500 to-fuchsia-500 p-4'>About Me</h1>
-      {/* <FaAffiliatetheme className='mx-auto my-4 text-4xl' /> */}
       <div className='flex flex-col lg:flex-row justify-center space-x-0 lg:space-x-10 items-center lg:items-start'>
         <img className='w-48 h-60 lg:w-72 lg:h-80 pt-8 lg:pt-20' src={image9} alt="Profile" />
         <div className='flex flex-col mt-4 lg:mt-0 lg:pl-10'>
